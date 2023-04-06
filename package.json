@@ -2,10 +2,16 @@
   "name": "sequence_beads",
   "version": "0.1.0",
   "description": "Write a program in your favorite programming language to obtain the conjugate of a collection of positive integers.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "vitest"
   },
   "author": "1x2kb",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "vitest": "^0.29.8"
+  }
 }
